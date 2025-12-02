@@ -1,6 +1,12 @@
 # Suite du Physique
 Ce programme permet la visualisation de la structure des atomes et simulation de la dynamique des circuits RLC et de la gravitation
 
+## Table de Contenu
+* [L'atome (programme de 2éme année)](#latome)
+* [Gravitation (programme de 3éme année)](#gravitation)
+* [Circuits RC, RLC Libre et RLC Forcé (programme de BAC)](#circuits-rc-rlc-libre-rlc-forcé)
+* [Les Oscillations Mécaniques (programme de BAC)](#les-oscillations-mécaniques)
+
 ## Bibliothèques utilisées:
 - numpy - pour des calculs
 - tkinter - pour l'interface graphique
@@ -23,7 +29,9 @@ Aluminium: "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>1
 
 ## Gravitation
 
-Simuler l'interaction gravitationnelle entre les corps massives + système solaire + système Terre-Lune. Vous pouvez aussi ajouter des corps en cliquant.
+Simuler l'interaction gravitationnelle entre les corps massives + système solaire + système Terre-Lune.
+
+Vous pouvez aussi ajouter des corps en cliquant dans le vide.
 
 ![image](https://user-images.githubusercontent.com/54601024/213917501-471017ce-8d51-4d71-9c2c-f5c2017f366d.png)
 
@@ -59,7 +67,7 @@ Tracer l'intensité, la charge et l'énergie.
 
 ![image](https://user-images.githubusercontent.com/54601024/213918014-ee780c84-6e18-4ba1-8e44-8f184fd1bc96.png)
 
-Tracer l'intensité et la charge, ainsi que les amplitudes et les déphasages d'qprès un rang de fréquences.
+Tracer l'intensité et la charge, ainsi que les amplitudes et les déphasages d'après un rang de fréquences.
 
 ![Figure_i](https://user-images.githubusercontent.com/54601024/213918030-63c5bf37-e08f-4af1-8c96-1944754504fe.png)
 ![Figure_q](https://user-images.githubusercontent.com/54601024/213918037-81ec67cb-6573-45a6-a7a6-ce51a0a14d17.png)
@@ -70,6 +78,9 @@ Voici les solutions résolues manuellement utilisées pour le système, en utili
 
 ![image](https://user-images.githubusercontent.com/54601024/227245975-b7315eb1-d990-4db6-b48e-e980f1caab20.png)
 
+> [!WARNING]
+> La solution pour le circuit RLC Forcé est plus-ou-moins erronée.\
+> Une solution numérique semble être plus adéquate.
 
 ## Les Oscillations Mécaniques
 
@@ -77,7 +88,7 @@ Voici les solutions résolues manuellement utilisées pour le système, en utili
 
 En précisant le coefficient du frottement, la masse et le raideur, vous pouvez cliquer "Simuler" ou tracer l'énergie.
 En suite, cliquez sur "Arrêter" afin de réinitialiser le système.
-Vous pouvez cliquer et faire glisser pour définir la position initiale
+Vous pouvez cliquer et faire glisser pour définir la position initiale de la solide.
 
 ![OscHarmo](https://user-images.githubusercontent.com/54601024/227246388-dfafb402-ba81-48b8-9f88-9393d00bc39d.png)
 ![OscPsPer](https://user-images.githubusercontent.com/54601024/227246419-0084d41b-a0b3-4874-b221-d3ed5cc07f7a.png)
