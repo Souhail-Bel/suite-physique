@@ -17,7 +17,7 @@ def create_circle(x, y, r, canvas):
 globals().update({'garbageCollector' : {}})
 
 def createGuideWindow(parent, title, text):
-    textLi = [i[:-1] for i in open(mainGuidyPath+text,'r').readlines()]
+    textLi = [i[:-1] for i in open(mainGuidyPath+text,'r', encoding="iso-8859-1").readlines()]
     linesSpacing = 25
     hLi = (len(textLi)+2)*linesSpacing
 

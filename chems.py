@@ -7,7 +7,7 @@ raw = []
 elems = []
 configs = {}
 
-with open("./res/chemsList.txt","r") as f:
+with open("./res/chemsList.txt","r", encoding="iso-8859-1") as f:
     lines = f.readlines()
     for line in range(0,len(lines),3):
         raw.append(lines[line][:-1])
